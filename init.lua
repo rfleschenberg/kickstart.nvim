@@ -965,5 +965,14 @@ require('lazy').setup({
   },
 })
 
+-- rene
+--
+vim.keymap.set('i', 'jk', '<ESC>')
+vim.keymap.set('i', 'vv', '<ESC>:w<CR>')
+vim.keymap.set('n', 'ZZ', ':wqa<CR>')
+vim.keymap.set('n', 'ZQ', ':qa!<CR>')
+
+-- rene end
+
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
