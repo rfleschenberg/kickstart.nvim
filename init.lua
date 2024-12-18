@@ -971,6 +971,8 @@ vim.keymap.set('i', 'jk', '<ESC>')
 vim.keymap.set('i', 'vv', '<ESC>:w<CR>')
 vim.keymap.set('n', 'ZZ', ':wqa<CR>')
 vim.keymap.set('n', 'ZQ', ':qa!<CR>')
+vim.keymap.set('n', '<Leader>#', ':b#<CR>')
+vim.keymap.set('n', '<Leader>p', 'Obreakpoint()  # FIXME <ESC>')
 
 -- rene end
 
